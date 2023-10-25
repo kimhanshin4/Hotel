@@ -2,9 +2,9 @@ import java.io.IOException;
 
 public class HotelMain {
 
-    private static final HotelService hotelService = new HotelService();
+    private static final HotelLounge hotelLounge = new HotelLounge();
 
     public static void main(String[] args) throws IOException {
-        hotelService.init();
+        hotelLounge.init();
     }
 }
